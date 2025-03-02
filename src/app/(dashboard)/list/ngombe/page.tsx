@@ -77,7 +77,7 @@ const NgombeListPage: React.FC<NgombeListPageProps> = ({ filteredData }) => {
   return (
     <div className="bg-white p-4 rounded-md m-4 mt-0">
       <div className="flex justify-between items-center">
-        <h1 className="text-lg font-semibold hidden md:block">DATA ZA NG'OMBE</h1>
+        <h1 className="text-lg font-semibold hidden md:block">DATA ZA NG'OMBE...</h1>
         <TableSearch />
       </div>
       <div className="overflow-y-scroll max-h-[500px] border border-gray-0 rounded-md shadow-sm">
