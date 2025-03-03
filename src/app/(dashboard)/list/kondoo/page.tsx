@@ -1,4 +1,5 @@
 "use client";
+import Loading from "@/components/Loading";
 //import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
@@ -45,7 +46,7 @@ const KondooListPage = () => {
     loadData();
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p><Loading /></p>;
   if (error) return <p>Error: {error.message}</p>;
 
   const renderRow = (item: ODKItem) => (
