@@ -14,15 +14,21 @@ const menuItems = [
       },
       {
         icon: "/teacher.png",
-        label: "Mifugo",
+        label: "Mifugo..",
         href: "/list/kondoo",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/student.png",
-        label: "Ranch Managers",
-        href: "/list/ranch-managers",
+        label: "Ranchies",
+        href: "/list/ranch",
         visible: ["admin", "teacher"],
+      },
+      {
+        icon: "/student.png",
+        label: "Ranchies Managers",
+        href: "/list/ranch-managers",
+        visible: ["admin"],
       },
       
       
@@ -56,20 +62,20 @@ const menuItems = [
     items: [
       {
         icon: "/subject.png",
-        label: "Mkata Ranch",
+        label: "Kongwa Ranch",
         href: "/lis/subjects",
         visible: ["admin"],
       },
       {
         icon: "/class.png",
         label: "Ruvu Ranch",
-        href: "/lis/classes",
+        href: "/admin/ruvu-ranch",
         visible: ["admin", "teacher"],
       },
       {
         icon: "/lesson.png",
-        label: "Kongwa Ranch",
-        href: "/lis/lessons",
+        label: "Mkata Ranch",
+        href: "/admin/mkata-ranch",
         visible: ["admin", "teacher"],
       },
       {
@@ -98,7 +104,7 @@ const menuItems = [
       },
       {
         icon: "/calendar.png",
-        label: "Events",
+        label: "Manyara",
         href: "/lis/events",
         visible: ["admin", "teacher", "student", "parent"],
       },

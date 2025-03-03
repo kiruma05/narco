@@ -82,7 +82,7 @@ const NgombeListPage: React.FC<NgombeListPageProps> = ({ filteredData }) => {
         ...</h1>
         <TableSearch />
       </div>
-      <div className="overflow-y-scroll max-h-[500px] border border-gray-0 rounded-md shadow-sm">
+      <div className="overflow-y-scroll max-h-[500px] border border-gray-0 rounded-md shadow-sm ">
       {data.length > 0 ? (
         <Table columns={columns} renderRow={renderRow} data={data} />
       ) : (

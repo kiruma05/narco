@@ -82,7 +82,7 @@ const NgombeDetails = () => {
 
   return (
     <div className="bg-white p-6 rounded-md shadow-md m-4">
-      <Link href="/list/ngombe">
+      <Link href="/admin">
         <button className="bg-lamaSky text-white p-2 rounded-md mb-4">
           🔙 Back to List
         </button>
